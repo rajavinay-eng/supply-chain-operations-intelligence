@@ -1,5 +1,7 @@
 # Supply Chain Operations Intelligence
 
+![Dashboard](dashboard.png)
+
 I analysed 180,519 order items to find out why orders arrive late, what causes losses, and what a company should fix first.
 
 **Tools:** Python, SQL (DuckDB), Excel, Power BI, Google Gemini API, scikit-learn
@@ -80,6 +82,7 @@ The model did no better than the simple rule. The extra features added nothing b
 | `04_dashboard.pbix` | Power BI dashboard |
 | `05_ai_ask_data.ipynb` | AI SQL assistant and its test |
 | `06_predict_late.ipynb` | Late-delivery model vs simple rule |
+| `dashboard.png` | Dashboard screenshot |
 
 ## How to run
 1. Download the dataset into a `data/` folder.
